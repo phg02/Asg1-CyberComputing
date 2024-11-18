@@ -4,7 +4,7 @@ import tracemalloc
 
 def hash_string():
     # The string to hash
-    string_to_hash = "your-string-to-hash"
+    string_to_hash = "string-to-hash-for-bcrypt"
     # Define salt rounds
     salt_rounds = 10
 

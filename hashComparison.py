@@ -28,7 +28,7 @@ def hash_speed_and_memory_test(data, algorithm):
     return elapsed_time, peak
 
 # Data to be hashed
-data = b"The quick brown fox jumps over the lazy dog" * 1000  # Repeat to increase data size
+data = b"Testing the performance between different hash function using Python" * 1000  # Repeat to increase data size
 
 # List of algorithms to test
 algorithms = ['md5', 'sha1', 'sha256', 'sha512', 'bcrypt']
