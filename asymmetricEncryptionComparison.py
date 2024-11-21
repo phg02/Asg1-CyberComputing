@@ -4,7 +4,7 @@ from cryptography.hazmat.primitives.asymmetric import rsa, ec, padding
 from cryptography.hazmat.primitives import serialization
 
 # Sample message for RSA encryption
-message = b"Testing RSA encryption performance."
+message = b"Testing RSA and ECC encryption performance."
 
 # RSA Encryption and Decryption Performance
 def rsa_performance():
